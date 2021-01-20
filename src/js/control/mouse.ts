@@ -20,7 +20,7 @@ export default class Mouse {
         "MOVE": "mousemove"
     };
 
-    private emitter: EventEmitter;
+    private emitter: any;
 
     /**
      *@TODO add type for list
